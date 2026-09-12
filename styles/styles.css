@@ -7,7 +7,7 @@ nav a {
     color: white;
     padding: 10px;
     display: block;
-    background-color: steelblue;
+    background-color: steelblue.;
 }
 
 h1 {
@@ -45,6 +45,6 @@ aside img {
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
-    text-align: centre;
+    text-align: centre.;
 
 }
