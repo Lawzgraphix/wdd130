@@ -1,54 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 main {
     max-width: 840px;
     padding: 10px;
 }
 
 nav {
-    background-color: steelblue;
+    background-color: darkblue;
     padding: 10px;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 10px;
+    padding: 20px;
 
 }
 
 h1 {
-    color: steelblue;
+    color: darkblue;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+aside {
+    width: 20rem;
+    text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: center;
+    top: 5px;
+    left: 120;
+}
+
+aside img {
+    max-width: 200px;
+    height: auto;
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
     padding: 0;
 }
 
-aside {
-    width: 20em;
-    margin: 1em;
-    border: 1px solid rgb(0, 0, 0, 0.2);
-    /* why use rgb instead of hex here? */
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-}
-
 footer {
-    margin-top: 1em;
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    background-color: #eee;
+    color: #333;
+
 }
