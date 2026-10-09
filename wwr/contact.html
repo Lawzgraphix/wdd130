@@ -1,0 +1,147 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Rafting Travels</title>
+
+    <meta name="description"
+      content="Contact Rafting Travels for rafting trip reservations, company information, and answers to your questions about our whitewater adventures.">
+
+    <meta name="author" content="Lawrence Omoregie">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/z-raftingcompas.jpg" alt="Rafting Travels logo">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+
+        <h1>Contact Us</h1>
+
+        <section class="contact-info">
+            <div class="company-info">
+                <h2>Rafting Travels</h2>
+                <p>123 River Road</p>
+                <p>Benin City, Edo State, Nigeria</p>
+                <p>Phone: +234 810 626 5729</p>
+                <p>Email: info@raftingtravels.com</p>
+            </div>
+
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps?q=Benin%20City%2C%20Nigeria&output=embed"
+                  title="Map showing Benin City, Nigeria" width="300" height="200" allowfullscreen
+                  loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="employee-section">
+            <h2>Meet Our Team</h2>
+
+            <div class="employee-list">
+                <figure>
+                    <img src="images/ceo.PNG" alt="Rafting trip guide">
+                    <figcaption>Lawrence Omoregie - Head Rafting Guide</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/manager.png" alt="Customer service team member">
+                    <figcaption>Mrs Lawrene - Customer Service Manager</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/cordinators.PNG" alt="Rafting safety team member">
+                    <figcaption>Mr & Mrs Lawz - Safety Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+
+            <form action="#" method="get">
+
+                <div class="form-row">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <fieldset class="purpose-row">
+                    <legend>Message Purpose:</legend>
+
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
+
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <div class="message-row">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <label class="newsletter" for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Rafting Travels | Omoregie Lawrence Osagie</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+
+            <a href="https://linkedin.com">
+                <img src="images/LinkedIn.png" alt="LinkedIn">
+            </a>
+
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
