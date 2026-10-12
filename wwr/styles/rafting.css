@@ -360,7 +360,7 @@ footer p {
     resize: vertical;
 }
 
-.newsletter {
+.newsletter-consent {
     display: flex;
     align-items: flex-start;
     gap: 8px;
@@ -573,4 +573,18 @@ footer p {
     .trip-table {
         margin: 10px;
     }
+}
+
+.trips-contact a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 20px;
+    color: white;
+    background-color: var(--accent1-color);
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.trips-contact a:hover {
+    background-color: #171b40;
 }
